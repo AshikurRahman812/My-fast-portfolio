@@ -38,12 +38,25 @@ nav h2{
     font-weight: 700;
     line-height: 27px;
     letter-spacing: 0%;
-    text-align: left;
     padding: 15px 20px;
     border-radius: 5px;
     border: none;
     background: rgb(253, 110, 10);
 }
+/* .btn1{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(253, 110, 10);
+    margin-top: 20px;
+    margin: 0 auto;
+    
+} */
 nav{
     display: flex;
     justify-content: space-between;
@@ -238,7 +251,7 @@ nav ul li a{
 }
 .resume-container{
     width: 1140px;
-    height: 500px;
+    min-height: 500px;
     margin: 0 auto;
     display: flex;
     gap: 40px;
@@ -322,6 +335,13 @@ nav ul li a{
     letter-spacing: 0%;
     text-align: left;
     margin-top: 28px;
+}
+.button-tag{
+    width: 1140px;
+    height: 550px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 20px;
 }
 /* resume section ends */
 
