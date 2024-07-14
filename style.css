@@ -357,9 +357,6 @@ footer{
     }
 /* footer section ends */
 
-.hide{
-    display: none;
-}
 /* Responsive part media  */
 @media only screen and (max-width: 576px) {
   .card-container{
